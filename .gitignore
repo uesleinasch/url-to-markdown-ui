@@ -1,0 +1,69 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.env
+
+# Arquivos específicos do Kivy
+.kivy/
+*.kv#
+
+# Arquivos e diretórios específicos do VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Arquivos e diretórios específicos do PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Arquivos de sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Diretórios GitHub específicos
+.github
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de banco de dados
+*.db
+*.sqlite3
+
+# Arquivos de configuração locais
+local_settings.py
+config.ini
+secrets.json
